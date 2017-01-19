@@ -1,0 +1,83 @@
+/* slider
+----------------------------------------------------------*/
+.slider {
+
+}
+
+.slide > * {
+    max-width: 100%;
+}
+.slider .slide-prev {
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -24px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0px;
+}
+.slider .slide-next {
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -24px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0px;
+}
+.slider .slide-next:hover, .slider .slide-prev:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+.slider .slide-next img, .slider .slide-prev img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+.es-caption {
+    position: absolute;
+    bottom: 0;
+    padding:5px 0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 10px;
+    width: auto;
+    left: 0;
+    right: 0;
+}
+ul.es-pager {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 0;
+    line-height: 0px;
+}
+ul.es-pager li {
+    display: inline-block;
+    margin: 2px;
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    //background: grey;    
+    cursor: pointer;
+    background-image:none !important;
+}
+
+ul.es-pager li.act {
+    //background: yellow !important;
+    background-image:none !important;
+}
+ul.es-pager li:hover, ul.es-pager li.act {
+    background-position: 0 0;
+}
+ul.es-pager li.act {
+    cursor: default;
+}

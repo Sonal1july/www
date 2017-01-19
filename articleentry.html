@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.1.css"/>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/articleentry.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="articleentry">
+      <div id="header" data-role="header" data-theme="a" data-position="fixed">
+        <a href="#slidemenu" onclick="addUserMenu();" class="mainmenu"><img src="images/menu.png"/></a>
+        <h2 id="header"><img src="images/logo.png" width="110px" title="coolgurukul"></h2>
+      </div>
+      <div id="slidemenu" data-role="panel" data-theme="a" data-display="overlay">
+        <ul id="usermenu" data-role="listview" data-theme="a"></ul>
+        <div id="poweredby"></div><div id="poweredbybottom"></div>
+      </div>
+      <div data-role="content" class="box" id="content">
+        <div data-role="fieldcontain">
+          <div id="single_article_entry" class="entry"></div>
+        </div>
+        <div data-role="fieldcontain">
+          <BR><div id="single_article_entry_comment_area" class="entry" style="display:none;"><b class="label">Comments:</b></div><BR>
+          <fieldset id="article_comment" class="ui-grid-a" style="display:none;">
+            <div class="ui-block-a"><textarea class="body" placeholder="Write Comment ..."></textarea></div>
+            <div class="ui-block-b">
+              <button class="post" data-corners="false" data-iconpos="top" data-mini="true" data-icon="star" data-theme="e" onclick="postArticleComment();">Post</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <div data-theme="a" data-role="footer" data-position="fixed">
+        <div id="offline" style="display:none;">
+          <center><span>No Network Connection</span></center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

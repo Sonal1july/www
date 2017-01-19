@@ -1,0 +1,50 @@
+#mm_albums .container {
+  padding:2px;
+}
+
+#mm_albums img.mm_album_cover_photo {
+  width: 85px;
+  height: 85px;
+  float:left;
+  margin-right:15px;
+  display:inline;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#mm_albums .mm_album_title {
+  color:#c60000;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:4px;
+}
+
+#mm_albums .mm_album_desc {
+  text-align:justify !important;
+  font-size:10px;
+  font-weight:normal;
+  color:#333;
+  line-height:21px;
+  margin-top:12px;
+  margin-left:6px;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#mm_albums .mm_posted_on {
+  font-size:11px;
+  font-style:italic;
+  font-weight:normal;
+  color:grey;
+  margin-top:12px;
+}
+
+#mmphotos b.label {
+  color:#FFF;
+  text-shadow:none;
+  font-size:13px;
+}

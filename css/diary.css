@@ -1,0 +1,56 @@
+#write_to_diary textarea { //Write to Diary Textarea
+  color:grey;
+  border-radius:0px !important;
+  width:99%;
+}
+
+#write_to_diary .ui-block-a {
+  width:80% !important;
+  margin-left:4px;
+}
+
+#write_to_diary .ui-block-b {
+  width:18% !important;
+  margin-left:2px;
+}
+
+#diary_response .ui-block-a {
+  width:74% !important;
+}
+
+#diary_response .ui-block-b {
+  width:25% !important;
+}
+
+#diary_comment textarea {
+  color:grey;
+  border-radius:0px !important;
+  width:99%;
+  font-size:12px;
+}
+
+#diary_comment .ui-block-a {
+  width:80% !important;
+}
+
+#diary_comment .ui-block-b {
+  width:20% !important;
+}
+
+#single_diary_entry_comment_area b.label {
+  color:#C60000 !important;
+}
+
+#diary_comment .ui-mini,
+#write_to_diary .ui-mini{
+  margin: 0px !important;
+  height: 49px !important;
+}
+
+#diary_response .ui-mini {
+  margin: 0px !important;
+}
+
+#diary .ui-field-contain {
+  margin: 0px !important;
+}

@@ -1,0 +1,805 @@
+#header {
+  min-height:26px;
+}
+
+h2#header img {
+  padding-top:3px;
+}
+
+#footer_coolg {
+  text-align:right;
+  padding-top:8px;
+  padding-bottom:5px;
+  padding-right:7px;
+}
+
+#footer_coolg #poweredby {
+  font-size:2px !important;
+  font-weight:normal;
+}
+
+#footer_coolg #logo {
+  font-size:15px;
+  font-weight:normal;
+}
+
+#footer {
+  font-size:13px;
+  font-weight:normal;
+  min-height: 20px;
+  padding-top: 8px;
+}
+
+#footer a {
+  text-decoration:none;
+  font-weight:normal;
+  color:#ffff32 !important;
+}
+
+a {
+  text-decoration:none;
+}
+
+#slidemenu {
+  background:#333;
+}
+
+#login div.ui-input-text {
+  margin-bottom:5px;
+}
+
+#login img#avatar,
+#changepassword img#avatar {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#login .box input,
+#changepassword .box input {
+  margin:0px !important;
+}
+
+#login .box,
+#changepassword .box {
+  padding: 5px 25px 30px !important;
+  margin: 20px auto 0px;
+  width: 80%;
+}
+
+#dashboard .child,
+#student_dashboard_badge .child {
+  padding:2px;
+}
+
+#dashboard img.child_photo,
+#student_dashboard_badge img.child_photo {
+  width: 85px;
+  height: 85px;
+  float:left;
+  margin-right:15px;
+  display:inline;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#dashboard .child_name {
+  color:#c60000;
+  margin:8px;
+}
+
+#student_dashboard_badge .child_name {
+  color:#000;
+  margin:8px;
+  text-shadow:none;
+}
+
+#dashboard .child_not_count,
+#usermenu .child_not_count {
+  float:right;
+}
+
+#dashboard .child_not_count {
+  margin-top:-5px;
+}
+
+#dashboard .child_not_count span {
+  color:green;
+  font-size:20px;
+}
+
+#dashboard .child_class {
+  font-size:12px;
+  font-style:italic;
+  font-weight:normal;
+  color:grey;
+  margin:8px;
+}
+
+#student_dashboard_badge .child_class {
+  font-size:12px;
+  font-style:italic;
+  font-weight:normal;
+  color:#EEE;
+  margin:8px;
+  text-shadow:none;
+}
+
+#dashboard .child_schoolname {
+  font-size:14px;
+  font-weight:normal;
+  color:#333;
+  margin:8px;
+}
+
+#student_dashboard_badge .child_schoolname {
+  font-size:14px;
+  font-weight:normal;
+  color:#EEE;
+  margin:8px;
+  text-shadow:none;
+}
+
+#student_dashboard a li {
+  position:relative;
+}
+
+#student_dashboard .cat_not_count {
+  position:absolute;
+  top:2px;
+  right:20px;
+}
+
+#student_dashboard .cat_not_count span {
+  font-weight:bold;
+  font-size:35px;
+  color:#FFF;
+}
+
+#dashboard_menu li {
+  float:left;
+  display:inline;
+}
+
+.title {
+  font-size:13px;
+  text-transform:capitalize;
+}
+
+.entry .title {
+  font-size:16px;
+  font-weight:bold;
+  color:#333;
+  margin-bottom:10px;
+  color:green;
+}
+
+.posted_on {
+  font-size:8px;
+  font-style:italic;
+  font-weight:normal;
+  color:grey;
+  float:right;
+  margin-top:2px;
+  margin-right:-9px;
+}
+
+.attachment_list {
+  float:right;
+  margin-top:2px;
+  margin-right:8px;
+}
+
+.body,
+.message {
+  text-align:justify !important;
+  font-size:11px;
+  font-weight:normal;
+  color:#333;
+  line-height:21px;
+  margin-top:8px;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.list_body {
+  margin-left: 45px;
+}
+
+.entry b {
+  font-size:12px !important;
+}
+
+.entry a{
+  color:#195594 !important;
+}
+
+.entry .duedate,
+.entry .image {
+  margin-top:8px;
+  font-size:12px;
+}
+
+.entry .attachment {
+  float: right;
+  margin-top:15px;
+  font-size:15px;  
+}
+
+.entry .attachment:active {
+  -webkit-transform:scale(0.9); 
+  -moz-transform:scale(0.9); 
+  -ms-transform:scale(0.9); 
+  -o-transform:scale(0.9); 
+  transform:scale(0.9); 
+  -webkit-box-shadow:0px 0px 20px #FFF; 
+  -moz-box-shadow:0px 0px 20px #FFF; 
+  -o-box-shadow:0px 0px 20px #FFF; 
+  box-shadow:0px 0px 20px #FFF; 
+}
+
+.image img {
+   max-width: 100%; 
+   height: auto;
+}
+
+#classworkentry table, #noticeentry table, #diaryentry table, #learningplanentry table {
+  table-layout: fixed !important;
+  width: auto !important;
+}
+
+colgroup {
+  width: auto !important;
+}
+
+col {
+  width: inherit !important;
+}
+
+table th {
+  width: auto !important;
+}
+
+table td {
+  width: auto !important;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.icon img {
+  width:35px;
+  float:left;
+  margin-right:10px;
+  display:inline;
+}
+
+.photo img {
+  width:100px;
+  height:90px;
+  float:left;
+  margin-right:10px;
+  margin-top:5px;
+  display:inline;
+}
+
+.box {
+  padding:0px !important;
+}
+
+#content {
+  padding:5px 12px 5px 5px !important;
+}
+
+#article_comment textarea,
+#memoir_comment textarea {
+  color:grey;
+  border-radius:0px !important;
+  width:99%;
+  font-size:12px;
+}
+
+#article_comment .ui-block-a,
+#memoir_comment .ui-block-a {
+  width:80% !important;
+}
+
+#article_comment .ui-block-b,
+#memoir_comment .ui-block-b {
+  width:20% !important;
+}
+
+#article_comment .ui-mini,
+#memoir_comment .ui-mini{
+  margin: 0px !important;
+  height: 49px !important;
+}
+
+#articles_list .title,
+#single_article_entry .title,
+#single_article_entry_comment_area b.label,
+#articles_list b.label {
+  color:#C60000 !important;
+}
+
+#memoirs_list .title,
+#single_memoir_entry .title,
+#single_memoir_entry_comment_area b.label,
+#memoirs_list b.label {
+  color:green !important;
+}
+
+#memoirs_list b.label,
+#articles_list b.label {
+  font-size:12px;
+}
+
+#single_article_entry_comment_area .photo img,
+#single_memoir_entry_comment_area .photo img {
+  width:50px !important;
+  height:50px !important;
+  float:left;
+  margin-right:5px !important;
+  display:inline;
+}
+
+#articles_list .photo img {
+  width:100px;
+  height:90px;
+  float:left;
+  margin-right:10px;
+  margin-top:10px;
+  display:inline;
+}
+
+#articles_list .body {
+  margin-top:5px;
+}
+
+a#rb {
+  margin-top:3px;
+}
+
+#header a:first {
+  margin-top:10px;
+}
+
+#offline {
+  width:100%;
+  background-color:grey;
+  opacity:0.8;
+  padding:5px;
+}
+
+#offline span {
+  background:url('../images/warning.png') no-repeat;
+  background-size:16px;
+  padding-left:19px;
+  color:#fff;
+  margin-top:-2px;
+  font-size:13px;
+}
+
+.ui-panel.ui-panel-open {
+  position:fixed;
+  margin-top:41px;
+}
+
+.ui-panel .ui-panel-inner {
+  position: absolute;
+  top:0px;
+  right:0;
+  bottom:43px;
+  left:0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: width 0.3s ease;
+     -moz-transition: width 0.3s ease;
+      -ms-transition: width 0.3s ease;
+       -o-transition: width 0.3s ease;
+          transition: width 0.3s ease;
+}
+
+#header h2 {
+  font-size:10px !important;
+}
+
+.mainmenu {
+  top:5px !important;
+  -webkit-border-radius: 7px !important;
+  -moz-border-radius: 7px !important;
+  border-radius: 7px !important;
+  padding-top:4px !important;
+  padding-bottom:1px !important;
+  padding-left:4px !important;
+  padding-right:4px !important;
+  border:1px solid #000;
+}
+
+.syncicon {
+  opacity:0.9;
+  top:6px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  border:hidden !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+  -moz-box-shadow:none !important;
+}
+
+.mainmenu .ui-btn-inner,
+.syncicon .ui-btn-inner {
+  padding:2px !important;
+  border:none !important;
+}
+
+.mainmenu img {
+  width: 17px;
+  height:16px;
+}
+
+.syncicon img {
+  width:28px;
+  margin-top:-2px !important;
+  margin-right:1px;
+}
+
+.mainmenu,
+.syncicon {
+  background:tranparent;
+}
+
+.mainmenu:active,
+.syncicon:active {
+  background:#3373a5 !important;
+}
+
+/** Student Dashboard Link Style for Student Picture **/
+#usermenu img.child_photo {
+  width: 55px;
+  height: 55px;
+  float:left;
+  margin-right:10px;
+  display:inline;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#usermenu .child_name {
+  color:#ffe155;
+  margin:2px;
+  font-size:12px;
+}
+
+#usermenu .child_class {
+  font-size:8px;
+  font-style:italic;
+  font-weight:normal;
+  color:#eee;
+  margin:8px;
+}
+
+#usermenu .child_schoolname {
+  font-size:9px;
+  font-weight:normal;
+  color:#FFF;
+  margin:8px;
+}
+
+ul#usermenu .child_not_count span {
+  color:#ffe155;
+  font-size:20px;
+}
+
+ul#usermenu li.active .child_name {
+  color:#333 !important;
+  text-shadow:none !important;
+}
+
+ul#usermenu li.active .child_class {
+  color:#632F00 !important;
+  text-shadow:none !important;
+}
+
+ul#usermenu li.active .child_schoolname {
+  color:#632F00 !important;
+  text-shadow:none !important;
+}
+
+ul#usermenu li.active .child_not_count span {
+  color:#333;
+  font-size:20px;
+}
+
+.ui-listview-filter .ui-input-search {
+  left:7px !important;
+  width:79% !important;
+}
+
+#dashboard_name {
+  text-align:center;
+  font-size:12px;
+  padding-top:2px;
+}
+
+#dashboard_name b.label {
+  color:#250040;
+}
+
+/** Student Dashboard **/
+#studentdashboard #dashboard_name b.label {
+  color:#FFF8F0;
+  text-shadow:none;
+  font-size:13px;
+  font-weight:normal !important;
+}
+
+#studentdashboard #content {
+  padding:0px !important;
+  width:100%;
+}
+
+ul#student_dashboard {
+  list-style-type:none;
+  margin-top:-8px;
+  margin-left:0px;
+  margin-right:0px;
+  width:100%;
+  padding:0px !important;
+}
+
+ul#student_dashboard li {
+  border: 3px solid #333;
+  float:left;
+  width:48%;
+  padding-top:25px;
+  padding-bottom:25px;
+  text-align:center;
+}
+
+ul#student_dashboard li img {
+  width:50px;
+}
+
+ul#student_dashboard li span {
+  color:#FFF;
+  font-size:14px;
+  display:block;
+  text-shadow:none;
+  padding-top:5px;
+}
+
+ul#student_dashboard li.diary {
+  background:#00ABA9;
+}
+
+ul#student_dashboard li.notice {
+  background:#DC572E;
+}
+
+ul#student_dashboard li.calendar {
+  background:#76608A;
+}
+
+ul#student_dashboard li.classwork {
+  background:#BF1E4B;
+}
+
+ul#student_dashboard li.learningplan {
+  background:#FF991D;
+}
+
+ul#student_dashboard li.drs {
+  background:#0AABFF;
+}
+
+ul#student_dashboard li.nl {
+  background:#F3B200;
+}
+
+ul#student_dashboard li.tt {
+  background:#77B900;
+}
+
+ul#student_dashboard li.fc {
+  background:#FF76BC;
+}
+
+ul#student_dashboard li.ft {
+  background:#FE7C22;
+}
+
+ul#student_dashboard li.sp {
+  background:#CEA539;
+}
+
+ul#student_dashboard li.mmphotos {
+  background:#00C140;
+}
+
+ul#student_dashboard li.schoolwebsite {
+  background:#7200AC;
+}
+
+#schoolbrand {
+  padding:5px 5px 0px 5px !important;
+  box-shadow: 0 0 10px #FFE155;
+  margin:15px 3px 15px 3px;
+}
+
+#schoolbrand img {
+  width:100%;
+}
+
+#school_name {
+  position:absolute;
+  top:10px;
+  left:0;
+  right:0;
+  font-size:17px;
+  color:#B3B3B3 !important;
+  text-transform:capitalize;
+  margin:0 auto;
+}
+
+#poweredby {
+  text-align:center;
+  font-size:10px !important;
+  margin:0 auto;
+  margin-top:15px;
+}
+
+#poweredby span,
+#poweredbybottom span {
+  font-size:10px;
+  color:#fff !important;
+}
+
+#poweredby img,
+#poweredbybottom img {
+  display:block;
+  margin-top:5px;
+}
+
+#poweredbybottom {
+  text-align:center;
+  font-size:10px !important;
+  position:absolute;
+  bottom:2px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  margin-top:15px;
+  padding-bottom:10px;
+}
+
+/** Student Badge CSS **/
+
+#studentdashboardbadge {
+  padding-top:2px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:15px;
+  margin-left:4px;
+  margin-right:4px;
+  background:#669900;
+}
+
+#studentdashboardbadge img.child_photo {
+  width: 75px;
+  height: 75px;
+  float:left;
+  margin-right:15px;
+  display:inline;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#studentdashboardbadge .child_name {
+  color:#000 !important;
+  text-shadow:none !important;
+  font-size:13px;
+  margin:12px;
+  padding-top:4px;
+  font-weight:bold;
+}
+
+#studentdashboardbadge .child_class {
+  color:#eee !important;
+  text-shadow:none !important;
+  font-size:11px;
+  font-style:italic;
+  margin:10px;
+  color:#eee;
+}
+
+#studentdashboardbadge .child_schoolname {
+  color:#eee !important;
+  text-shadow:none !important;
+  font-size:12px;
+  margin:10px;
+}
+
+.std-dash-box {
+  padding-left:10px;
+  padding-top:2px;
+  padding-bottom:10px;
+  border-bottom:1px solid #c60000;
+}
+
+#coolgpopup {
+  line-height:20px;
+  font-size:12px;
+  text-align:justify;
+}
+
+#coolgpopup b {
+  color:green;
+}
+
+#coolgpopup b.title {
+  color:#c60000 !important;
+}
+
+#popup_close_btn img {
+  width:20px;
+  float:right;
+  margin-top:-10px;
+  margin-right:-10px;
+}
+
+
+ul#usermenu .menutile img {
+  width: 55px;
+  height: 55px;
+  float:left;
+  margin-right:10px;
+  display:inline;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+ul#usermenu .menutitle {
+  padding-top:16px;
+  color:#ffe155;
+  font-szie:10px !important;
+}
+
+ul#usermenu li.active .menutitle {
+  color:#333 !important;
+  text-shadow:none !important;
+}
+
+#photos img { 
+    max-height: 100%; 
+    height: auto;
+    max-width: 100%; 
+    width: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0; 
+    right: 0;
+    margin: auto;
+}
+
+#photos {
+  height: 380px !important;
+  width: 380px !important;
+    position: relative;
+}
